@@ -1,0 +1,25 @@
+package programa_teste;
+
+import java.util.zip.ZipEntry;
+
+public class Processamento_de_dados {
+
+	public static void main(String[] args) {
+		int x , y;
+		double z, b, B, h;
+		
+		x = 5;
+		y = 2 * x;
+		z = 2 * x;
+		
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		System.out.println("\n\n");
+		System.out.println("Area do trapezio");
+		
+
+
+	}
+
+}
