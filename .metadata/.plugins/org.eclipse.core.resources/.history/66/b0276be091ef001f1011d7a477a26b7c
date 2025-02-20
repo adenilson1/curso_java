@@ -1,0 +1,24 @@
+package programa_teste;
+
+import java.util.Scanner;
+
+public class Entrada_de_dados_01 {
+
+	public static void main(String[] args) {
+		//entrada é feito pelo
+		//scanner sc = new Scanner(System.in)
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String palavra;
+		palavra = sc.next();
+		System.out.println("Você digitou: "+palavra);
+		
+		
+		
+		sc.close();
+		
+
+	}
+
+}
